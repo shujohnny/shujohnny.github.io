@@ -1,0 +1,137 @@
+.circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #808080;
+}
+
+.rounded-rectangle {
+    width: 65px;
+    height: 65px;
+    border-radius: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #808080;
+
+} 
+
+
+.i {
+    background-image: url();
+}
+.i-person{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -37px;
+    background-position-y: -40px;
+}
+.i-phone{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -157px;
+    background-position-y: -40px;
+}
+.i-message{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -276px;
+    background-position-y: -38px;
+}
+.i-clock{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -395px;
+    background-position-y: -40px;
+}
+.i-music{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -40px;
+    background-position-y: -158px;
+}
+.i-photo{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -157px;
+    background-position-y: -158px;
+}
+.i-photocamera{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -276px;
+    background-position-y: -158px;
+}
+.i-videocamera{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -395px;
+    background-position-y: -158px;
+}
+.i-webcam{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -37px;
+    background-position-y: -280px;
+}
+.i-microphone{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -158px;
+    background-position-y: -278px;
+}
+.i-trashcan{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -276px;
+    background-position-y: -278px;
+}
+.i-find{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -395px;
+    background-position-y: -277px;
+}
+.i-location{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -37px;
+    background-position-y: -397px;
+}
+.i-setting{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -156px;
+    background-position-y:  -397px;
+}
+.i-speaker{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -278px;
+    background-position-y:  -397px;
+}
+.i-note{
+    height: 65px;
+    width: 65px;
+    background-image: url(../img/icon-list.png);
+    background-position-x: -395px;
+    background-position-y:  -397px;
+}
