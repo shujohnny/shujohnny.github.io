@@ -1,0 +1,271 @@
+.app {
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #808080;
+}
+.square {
+    height: 500px;
+    width: 265px;
+    border-radius: 0%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+
+}
+.outer {
+    height: 500px;
+    width: 300px;
+    border-radius: 10%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.radius-outer {
+    height: 500px;
+    width: 300px;
+    border-radius: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+}
+.circle {
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+.dots{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #808080;
+}
+
+}
+.i {
+    background-image: url();
+}
+
+.i-white2 {
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/white.png);
+    position: absolute;
+    font-weight: bold;
+    top: 519px;
+    left :163px;
+    z-index:2;
+
+}
+
+.i-Google_Maps {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/google_map.png);
+    background-size: 50px 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    font-weight: bold;
+    top: 80px;
+    left :67px;
+    z-index:3;
+
+}
+
+.i-Gmail {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/gmail.jpg);
+    background-size: 50px 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    font-weight: bold;
+    top: 80px;
+    left :131px;
+    z-index:3;
+}
+
+.i-Chrome {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/chrome.png);
+    background-size: 50px 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    font-weight: bold;
+    top: 80px;
+    left :196px;
+    z-index:3;
+}
+
+.i-Facebook {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/facebook-icon.jpg);
+    background-size: 60px 60px;
+    background-position-x: -5px;
+    background-position-y: -5px;
+    position: absolute;
+    font-weight: bold;
+    top: 80px;
+    left :260px;
+    z-index:3;
+}
+
+.i-NTU_CEIBA {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/ceiba.png);
+    background-size: 50px 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    font-weight: bold;
+    top: 160px;
+    left :67px;
+    z-index:3;
+}
+
+.i-Timberland{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/timberland.jpg);
+    background-size: 50px 50px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    font-weight: bold;
+    top: 160px;
+    left :131px;
+    z-index:3;
+}
+
+.i-LINE{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/line.jpg);
+    background-size: 66px 72px;
+    background-position-x: -8px;
+    background-position-y: -10px;
+    position: absolute;
+    font-weight: bold;
+    top: 160px;
+    left :196px;
+    z-index:3;
+}
+
+.i-Uber{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/uber.png);
+    background-size: 57px 56px;
+    background-position-x: -4px;
+    background-position-y: -3px;
+    position: absolute;
+    font-weight: bold;
+    top: 160px;
+    left :260px;
+    z-index:3;
+}
+
+.i-Rose{
+    max-height: 450px;
+    max-width: 300px;
+    background-image: url(../img/Rosé_2.jpg);
+    background-size:265px 500px;
+    background-position-x: -1px;
+    background-position-y: -2px;
+    position: absolute;
+    font-weight: bold;
+    top: 60px;
+    left : 55px;
+    z-index:2;
+}
+
+
+.i-white1 {
+    height: 10px;
+    width: 100px;
+    background-image: url(../img/white.png);
+    position: absolute;
+    font-weight: bold;
+    top: 36px;
+    left :135px;
+    z-index:2;
+}
+
+.i-dot1{
+    height: 4px;
+    width: 4px;
+    background-image: url(../img/Gray.jpg);
+    position: absolute;
+    font-weight: bold;
+    top: 495px;
+    left :160px;
+    z-index:2;
+
+}
+.i-dot2{
+    height: 4px;
+    width: 4px;
+    background-image: url(../img/Gray.jpg);
+    position: absolute;
+    font-weight: bold;
+    top: 495px;
+    left :176px;
+    z-index:2;
+
+}
+.i-dot3{
+    height: 4px;
+    width: 4px;
+    background-image: url(../img/Gray.jpg);
+    position: absolute;
+    font-weight: bold;
+    top: 495px;
+    left :192px;
+    z-index:2;
+
+}
+.i-dot4{
+    height: 4px;
+    width: 4px;
+    background-image: url(../img/white.png);
+    position: absolute;
+    font-weight: bold;
+    top: 495px;
+    left :208px;
+    z-index:2;
+
+}
+
+
+
+
+.i-phone {
+    height: 550px;
+    width: 330px;
+    background-image: url(../img/black.jpg);
+    position: absolute;
+    font-weight: bold;
+    top: 20px;
+    left :20px;
+    z-index:1;
+}
+
+
