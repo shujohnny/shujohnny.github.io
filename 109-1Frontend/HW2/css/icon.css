@@ -7,6 +7,73 @@
     border-width: 0px;
     border-color: #808080;
 }
+.words{
+    color:white;
+    z-index:5;
+}
+
+.w-google_maps{
+    position: absolute;
+    font-weight: bold;
+    top: 130px;
+    left :68px;
+    z-index:4;
+}
+
+.w-gmail{
+    position: absolute;
+    font-weight: bold;
+    top: 130px;
+    left :145px;
+    z-index:4;
+}
+
+.w-chrome{
+    position: absolute;
+    font-weight: bold;
+    top: 130px;
+    left :207px;
+    z-index:4;
+}
+
+.w-facebook{
+    position: absolute;
+    font-weight: bold;
+    top: 130px;
+    left :267px;
+    z-index:4;
+}
+
+.w-ceiba{
+    position: absolute;
+    font-weight: bold;
+    top: 210px;
+    left :68px;
+    z-index:4;
+}
+
+.w-timberland{
+    position: absolute;
+    font-weight: bold;
+    top: 210px;
+    left :135px;
+    z-index:4;
+}
+.w-line{
+    position: absolute;
+    font-weight: bold;
+    top: 210px;
+    left :211px;
+    z-index:4;
+}
+.w-uber{
+    position: absolute;
+    font-weight: bold;
+    top: 210px;
+    left :276px;
+    z-index:4;
+}
+
 .square {
     height: 500px;
     width: 265px;
@@ -53,7 +120,6 @@
     border-color: #808080;
 }
 
-}
 .i {
     background-image: url();
 }
@@ -197,7 +263,6 @@
     z-index:2;
 }
 
-
 .i-white1 {
     height: 10px;
     width: 100px;
@@ -254,9 +319,6 @@
 
 }
 
-
-
-
 .i-phone {
     height: 550px;
     width: 330px;
@@ -267,5 +329,3 @@
     left :20px;
     z-index:1;
 }
-
-
