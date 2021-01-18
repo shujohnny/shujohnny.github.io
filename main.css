@@ -1,0 +1,130 @@
+/* 按鈕樣式設定*/
+.btn{
+    background-color: #110553ad;
+    box-shadow: inset -2px -2px 4px #000158b0;
+    border-radius: 15px;
+    color: black;
+    max-width: 25vw;
+    min-width: 120px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn:active{
+    box-shadow: inset 0 0 5px black;
+    color: white;
+}
+
+.start{
+    background-color: #1c7c7ca8;
+    box-shadow: inset -2px -2px 4px #1d1710a9;
+}
+
+@media (hover: hover) {
+
+    .btn:hover{
+        background-color: rgb(44, 151, 165);
+        color: white;
+    }
+    .start:hover{
+        background-color: #058791;
+        color: white;
+    }
+}
+
+
+/* 顯示或隱藏項目 */
+.hideResult{
+    display:none;
+}
+
+.showResult{
+    display: block;
+}
+
+h2{
+    padding: 10px;
+}
+
+/*開始頁面*/
+.intro-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body{
+    background-color: rgb(156, 200, 206);
+}
+.homepage{
+    margin:0 auto;
+    padding: 30px;
+    background-color: rgba(27, 43, 112, 0.644);
+    display: block;
+    position: center;top:20%;
+    
+}
+/* 分隔線 */
+.division{
+    width: 100%;
+    height: 2px;
+    margin: 3px;
+    background-color: coral;
+    text-align: center;
+}
+
+/*試題頁面*/
+#info{
+    height: 60px;
+}
+
+.answer{
+    width: 100%;
+}
+
+.imgplace{
+    width: 40vw;
+    height: 20vw;
+    margin: 0 auto;
+    margin-top: calc((100vw - 45vw)/2) auto;
+    margin-right: 2vw;
+    background-size: cover;
+    display: inline-block;
+}
+
+.adv-img{
+    left: 50%;
+    margin-left: -22.5vw;
+    position: absolute;
+}
+
+.answerzone{
+    margin: 5vw;
+    display: inline-block;
+}
+
+.btn-choice{
+    min-height: 40px;
+
+}
+
+.flex{
+    justify-content:center;
+  }
+  
+.alertTen{
+    color: red;
+    size: 30px;
+}
+
+/* Result頁面 */
+/* 結果圖片樣式*/
+.answerimg{
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.Result{
+    margin-top: 20px;
+}

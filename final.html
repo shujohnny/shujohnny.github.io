@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日文二上單字小考</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div>
+        <audio src="../B07106054_舒宇祥_final/yorunikakeru.mp3"  autoplay playsinline loop></audio><br>
+    </div>
+    <div class="container">
+        <div class="homepage text-center align-items-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="ml5">
+                        <span class="text-wrapper">
+                          <span class="line line1"></span>
+                          <span class="letters letters-left">日文二上</span>
+                          <span class="letters letters-right">期末單字小考</span>
+                          <span class="line line2"></span>
+                        </span>
+                      </h1>                  
+                    <br>
+                </div>
+    
+                <div class="container fade-in">
+                    <ul class="list-group" id="About" >
+                        <li type="button" class="btn start" data-toggle="modal" data-target="#play">開始練習</li>
+                      </ul>
+                </div>
+           </div>
+        </div>
+    </div>
+    
+    <!-- 開始 -->
+      <div class="modal fade" id="play" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!-- <span aria-hidden="true">&times;</span> -->
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-center">請選擇課程</h4>
+                    <div class="division"></div>
+                    <div class="row">
+                        <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="點我進入簡易模式" onclick="location.href='main.html'" id="Test" data-toggle="tooltip" data-placement="top" title="Tooltip on top">L17</button>
+                        <button type="button" class="btn" onclick="location.href='#'" disabled="disabled" title="開發中～">L18</button>
+                        <button type="button" class="btn" onclick="location.href='#'" disabled="disabled" title="開發中～">L19</button>
+                        <button type="button" class="btn" onclick="location.href='#'" disabled="disabled" title="開發中～">L20</button>
+                    </div>
+                    <div>
+                </div>
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script> 
+    
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="animate.js"></script>
+
+</body>
+</html>

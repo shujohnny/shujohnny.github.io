@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日文二練習題</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- icon -->
+
+    <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+    <div>
+        <audio src="../B07106054_舒宇祥_final/yorunikakeru.mp3"  autoplay playsinline loop></audio><br>
+    </div>
+    <script>
+        alert('本次練習一共20題，作答時間200秒。');
+    </script>
+    <div class="container">
+        <div class="text-center">
+            <h2>日文二L17單字小考</h2>
+            <h5 id="alert-text">(以下為作答示意畫面)</h5>
+            <div class="text-center hideResult" id="HOME"><a href="index.html" class="btn-main">按我回首頁</a></div>
+            <h4 id="left"></h4>
+            <h4 id="TIME"></h4>
+            
+        </div>
+        <div class="row" id="test-area">
+            <!-- 選擇區 -->
+            <div class="col-6 text-center flex">
+                <div id="info">
+                    <button class="btn" id="start">按我開始</button>
+                </div>
+
+
+                <div id="Choice" class="hideResult">
+                    <div class="btn btn-block btn-choice" id="A">
+                    </div>
+                    <div class="btn btn-block btn-choice" id="B">
+                    </div>
+                    <div class="btn btn-block btn-choice" id="C">
+                    </div>
+                    <div class="btn btn-block btn-choice" id="D">
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片顯示處 -->
+            <div class="col-6 answer flex">
+                <div id="imgplace">
+                    <img src="./img/1.jpg" alt="準備畫面" class="imgplace">
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Result -->
+        <div class="text-center hideResult Result" id="allResult">
+                <!-- 答對題數結果 -->
+                <div class="text-center">
+                    <h5 id="summary"></h5>
+                    <h5 id="grade"></h5>
+                </div>
+                <div id="answerimg" class="fade-in">
+                <div class="row text-center flex">
+                    <div class="card" style="width: 14rem;">
+                        <h5>第1題</h5>
+                        <img src="..." class="card-img-top" alt="" id="0">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail0">這個單字是?</h6>
+                        <p id="guest0">您的回答</p>
+
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第2題</h5>
+                        <img src="..." class="card-img-top" alt="" id="1">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail1">這個單字是?</h6>
+                        <p id="guest1">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第3題</h5>
+                        <img src="..." class="card-img-top" alt="" id="2">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail2">這個單字是?</h6>
+                        <p id="guest2">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第4題</h5>
+                        <img src="..." class="card-img-top" alt="" id="3">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail3">這個單字是?</h6>
+                        <p id="guest3">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第5題</h5>
+                        <img src="..." class="card-img-top" alt="" id="4">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail4">這個單字是?</h6>
+                        <p id="guest4">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第6題</h5>
+                        <img src="..." class="card-img-top" alt="" id="5">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail5">這個單字是?</h6>
+                        <p id="guest5">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第7題</h5>
+                        <img src="..." class="card-img-top" alt="" id="6">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail6">這個單字是?</h6>
+                        <p id="guest6">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第8題</h5>
+                        <img src="..." class="card-img-top" alt="" id="7">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail7">這個單字是?</h6>
+                        <p id="guest7">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第9題</h5>
+                        <img src="..." class="card-img-top" alt="" id="8">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail8">這個單字是?</h6>
+                        <p id="guest8">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第10題</h5>
+                        <img src="..." class="card-img-top" alt="" id="9">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail9">這個單字是?</h6>
+                        <p id="guest9">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第11題</h5>
+                        <img src="..." class="card-img-top" alt="" id="10">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail10">這個單字是?</h6>
+                        <p id="guest10">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第12題</h5>
+                        <img src="..." class="card-img-top" alt="" id="11">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail11">這個單字是?</h6>
+                        <p id="guest11">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第13題</h5>
+                        <img src="..." class="card-img-top" alt="" id="12">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail12">這個單字是?</h6>
+                        <p id="guest12">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第14題</h5>
+                        <img src="..." class="card-img-top" alt="" id="13">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail13">這個單字是?</h6>
+                        <p id="guest13">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第15題</h5>
+                        <img src="..." class="card-img-top" alt="" id="14">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail14">這個單字是?</h6>
+                        <p id="guest14">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第16題</h5>
+                        <img src="..." class="card-img-top" alt="" id="15">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail15">這個單字是?</h6>
+                        <p id="guest15">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第17題</h5>
+                        <img src="..." class="card-img-top" alt="" id="16">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail16">這個單字是?</h6>
+                        <p id="guest16">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第18題</h5>
+                        <img src="..." class="card-img-top" alt="" id="17">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail17">這個單字是?</h6>
+                        <p id="guest17">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第19題</h5>
+                        <img src="..." class="card-img-top" alt="" id="18">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail18">這個單字是?</h6>
+                        <p id="guest18">您的回答</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 14rem;">
+                        <h5>第20題</h5>
+                        <img src="..." class="card-img-top" alt="" id="19">
+                        <div class="card-body navbar-fixed-bottom">
+                        <h6 class="card-text" id="detail19">這個單字是?</h6>
+                        <p id="guest19">您的回答</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+    <script src="animate.js"></script> 
+
+</body>
+</html>
