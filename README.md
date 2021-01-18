@@ -1,4 +1,4 @@
-shujohnny.github.io/final.html 
+shujohnny.github.io/final
 •	你的期末專題主題簡介
     日文課的單字小測驗，有點像是自製的單字quizlet，透過網頁的實現可以讓使用者不必使用app自行輸入單字庫便能進行單字自習。
 •	使用者要怎麼使用你的網站
